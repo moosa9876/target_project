@@ -1,6 +1,6 @@
 // src/components/Quiz.tsx
 import React, { useState } from 'react';
-import { quizData, Question } from '/Users/moosa/Downloads/target-project/my-app/src/Data/HardQuizData';
+import { quizData, Question } from '/Users/moosa/Downloads/target_project/my-app/src/Data/HardQuizData';
 
 const Quiz: React.FC = () => {
   const [currentQuestion, setCurrentQuestion] = useState(0);
