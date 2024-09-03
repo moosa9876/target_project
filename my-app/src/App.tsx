@@ -22,16 +22,16 @@ const App: React.FC = () => {
               <Link to="/Quiz1">Quiz 1</Link>
             </li>
             <li>
-              <Link to="/Register">Register</Link>
+              <Link to="/Quiz2">Quiz 2</Link>
+            </li>
+            <li>
+              <Link to="/HardQuiz">Hard Quiz</Link>
             </li>
             <li>
               <Link to="/Login">Login</Link>
             </li>
             <li>
-              <Link to="/Quiz2">Quiz 2</Link>
-            </li>
-            <li>
-              <Link to="/HardQuiz">Hard Quiz</Link>
+              <Link to="/Register">Register</Link>
             </li>
             <li>
               <Link to="/AccountPage">Account Page</Link>
