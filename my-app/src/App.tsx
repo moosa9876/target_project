@@ -7,6 +7,7 @@ import Register from './components/register';
 import Login from './components/login';
 import Quiz2 from './components/Quiz2';
 import HardQuiz from './components/HardQuiz'
+import AccountPage from './components/AccountPage';
 
 const App: React.FC = () => {
   return (
@@ -18,7 +19,7 @@ const App: React.FC = () => {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/Quiz1">Quiz1</Link>
+              <Link to="/Quiz1">Quiz 1</Link>
             </li>
             <li>
               <Link to="/Register">Register</Link>
@@ -27,10 +28,13 @@ const App: React.FC = () => {
               <Link to="/Login">Login</Link>
             </li>
             <li>
-              <Link to="/Quiz2">Quiz2</Link>
+              <Link to="/Quiz2">Quiz 2</Link>
             </li>
             <li>
-              <Link to="/HardQuiz">HardQuiz</Link>
+              <Link to="/HardQuiz">Hard Quiz</Link>
+            </li>
+            <li>
+              <Link to="/AccountPage">Account Page</Link>
             </li>
           </ul>
         </nav>
@@ -42,6 +46,7 @@ const App: React.FC = () => {
           <Route path="/Login" element={<Login />} />
           <Route path="/Quiz2" element={<Quiz2 />} />
           <Route path="/HardQuiz" element={<HardQuiz />} />
+          <Route path="/AccountPage" element={<AccountPage />} />
         </Routes>
       </div>
     </Router>
